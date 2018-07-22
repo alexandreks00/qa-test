@@ -1,0 +1,13 @@
+url_base: http://app.auth/login
+
+body:
+  payload_autenticacao_ok: features/data/payload_autenticacao_ok.json
+  email_invalido: features/data/email_invalido.json
+  email_required: features/data/email_required.json
+  password_invalido: features/data/password_invalido.json
+  password_required: features/data/password_required.json
+
+email_correto: qa@veek.com.br
+password_correto: "123456"
+email_invalido: qaveek.com.br
+password_invalido: "12345"

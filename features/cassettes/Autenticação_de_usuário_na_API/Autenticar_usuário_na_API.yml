@@ -1,0 +1,23 @@
+http_interactions:
+- request:
+    method: post
+    uri: http://app.auth/login
+    body:
+      encoding: UTF-8
+      string: '{"email":"qa@veek.com.br","password":"123456"}'
+    headers:
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: '{"token":"ytNUA646PoaO9XwEpTm6Th"}'
+    http_version:
+  recorded_at: Thu, 11 Jul 2018 19:07:39 GMT
+recorded_with: VCR 4.0.0

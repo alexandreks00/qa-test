@@ -1,0 +1,1 @@
+default: --no-source --color --format pretty --format html --out=Teste<%= Time.now.strftime('%HH%MM%SS') %>.html
